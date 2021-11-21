@@ -313,6 +313,8 @@ nav li{
     box-sizing: border-box;
     width:70%;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
 }
 #comment-form{
     width:45vw;
