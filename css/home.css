@@ -8,13 +8,14 @@
     height:100vh;
     /* background-image:  linear-gradient(rgba(15, 4, 12, 0.137),rgba(128, 0, 128, 0.315)),url(aaron-burden-xG8IQMqMITM-unsplash.jpg); */
     background-image:  linear-gradient(rgba(19, 16, 18, 0.753),rgba(128, 0, 128, 0.342)),url(../images/aaron-burden-xG8IQMqMITM-unsplash.jpg);
-
+    background-repeat: no-repeat;
     background-position:center;
 }
 body,html{
     width:100%;
     overflow-x: hidden;
     background-color:rgba(245, 214, 245, 0.233);
+
 }
 nav{
     display: flex;
@@ -290,6 +291,6 @@ nav li{
 @media only screen and (max-width:400px)
 {
     .intro p{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

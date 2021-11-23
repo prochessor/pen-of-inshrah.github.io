@@ -356,28 +356,29 @@ img{
 }
 #comment-form h1{
     text-align: center;
+    color: rgb(39, 39, 39);
 }
 #Name,
 #Email{
-    padding:10px;
+    padding:5px;
     width:45vw;
     height: 40px;
-    margin-top: 20px;
-    margin-bottom:20px;
+    margin-top: 10px;
+    margin-bottom:10px;
     background-color:rgba(255, 255, 255, 0.486);
     border: none;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 #message{
-    padding:10px;
+    padding:5px;
     width:45vw;
     height: 150px;
-    margin-top: 32px;
+    margin-top: 15px;
     background-color:rgba(255, 255, 255, 0.486);
     border: none;
     margin-bottom:20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .lable{
@@ -392,4 +393,39 @@ img{
 #btn{
     margin-bottom: 30px;
     padding:10px;
+}
+@media only screen and (max-width:450px)
+{
+    #Name,#messsage,#Email{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #comment-form{
+        width:58vw;    
+    }
+    #Name,
+    #Email{
+        padding:5px;
+        width:55vw;
+        height: 25px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        background-color:rgba(255, 255, 255, 0.486);
+        border: none;
+        font-size: 14px;
+
+    }
+    #message{
+        padding:5px;
+        width:56vw;
+        height: 150px;
+        margin-top: 15px;
+        background-color:rgba(255, 255, 255, 0.486);
+        border: none;
+        margin-bottom:20px;
+        font-size: 14px;
+    }
+
 }

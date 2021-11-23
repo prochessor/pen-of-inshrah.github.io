@@ -122,7 +122,7 @@ nav li{
     margin-bottom:80px;
 }
 .card{
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/pawel-czerwinski-Z06Aa4W20fY-unsplash.jpg);
     position: relative;
     margin-left:20px;
     margin-right:20px;
@@ -133,6 +133,7 @@ nav li{
     box-shadow: 0 0 10px rgba(46, 5, 70, 0.616);
     transition: all .5s;
     margin-bottom:20px;
+    color:white;
 }
 .card h1{
     position: absolute;
@@ -179,6 +180,7 @@ nav li{
     transition: all 1s;
     box-shadow: 2px 2px 3px black;
     color:black;
+    background-color: #fff;
 }
 .card .btn:hover{
     color: white;
@@ -189,19 +191,39 @@ nav li{
 }
 .card:hover{
     box-shadow: 0 0 15px purple;
-
 }
 
-@media only screen and (max-width:400px)
+
+
+
+
+@media only screen and (max-width:410px)
 {
+    .cards{
+        width: 80%;
+    }
+    .card{
+        height: 250px;
+        width:250px;
+    }
+    .card h1{
+        font-size: 20px;
+    }
     .card p{
-        top:26%;
+        top:27%;
+        font-size: 18px;
+    }
+    #card2 h1{
+        font-size: 25px;
+    }
+    #card2 p{
+        top:23%;
+        font-size: 18px;
+    }
+    .card .btn{
+        left:30%;
     }
 }
-
-
-
-
 
 
 
@@ -332,3 +354,4 @@ nav li{
 .footer a{
     font-size: 20px;
 }
+

@@ -116,7 +116,7 @@ nav li{
 .page h1{
     text-align: center;
     color:rgba(44, 44, 44, 0.822);
-    font-size: 40px;
+    font-size: 45px;
 }
 .page p{
     margin-top:20px;
@@ -127,7 +127,7 @@ nav li{
 @media only screen and (max-width:660px)
 {
     .page h1{
-        font-size: 28px;
+        font-size: 40px;
     }
     .page p{
         font-size: 19px;
@@ -139,7 +139,7 @@ nav li{
         width:73%;
     }
     .page h1{
-        font-size: 22px;
+        font-size: 32px;
     }
     .page p{
         font-size: 17px;
@@ -327,25 +327,25 @@ nav li{
 }
 #Name,
 #Email{
-    padding:10px;
+    padding:5px;
     width:45vw;
     height: 40px;
-    margin-top: 20px;
-    margin-bottom:20px;
+    margin-top: 10px;
+    margin-bottom:10px;
     background-color:rgba(255, 255, 255, 0.486);
     border: none;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 #message{
-    padding:10px;
+    padding:5px;
     width:45vw;
     height: 150px;
-    margin-top: 32px;
+    margin-top: 15px;
     background-color:rgba(255, 255, 255, 0.486);
     border: none;
     margin-bottom:20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .lable{
@@ -360,4 +360,39 @@ nav li{
 #btn{
     margin-bottom: 30px;
     padding:10px;
+}
+@media only screen and (max-width:450px)
+{
+    #Name,#messsage,#Email{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #comment-form{
+        width:58vw;    
+    }
+    #Name,
+    #Email{
+        padding:5px;
+        width:55vw;
+        height: 25px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        background-color:rgba(255, 255, 255, 0.486);
+        border: none;
+        font-size: 14px;
+
+    }
+    #message{
+        padding:5px;
+        width:56vw;
+        height: 150px;
+        margin-top: 15px;
+        background-color:rgba(255, 255, 255, 0.486);
+        border: none;
+        margin-bottom:20px;
+        font-size: 14px;
+    }
+
 }
