@@ -202,10 +202,6 @@ nav li{
     .cards{
         width: 80%;
     }
-    .card{
-        height: 300px;
-        width:250px;
-    }
     .card h1{
         font-size: 20px;
     }
@@ -221,7 +217,7 @@ nav li{
         font-size: 18px;
     }
     .card .btn{
-        left:30%;
+        left:28%;
     }
 }
 
